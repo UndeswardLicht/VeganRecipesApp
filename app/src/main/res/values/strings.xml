@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VeganRecipesApp</string>
+    <string name="screen_recipes">My Recipes</string>
+</resources>
