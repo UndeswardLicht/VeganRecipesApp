@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Using Material3 DayNight theme. NoActionBar because we use a Toolbar manually in each layout -->
+    <style name="Base.Theme.VeganRecipesApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- You can override colorPrimary / colorSecondary etc. here -->
+    </style>
 
-    <style name="Theme.VeganRecipesApp" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.VeganRecipesApp" parent="Base.Theme.VeganRecipesApp" />
 </resources>

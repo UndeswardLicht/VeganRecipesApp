@@ -33,7 +33,7 @@ class RecipeDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //this screen doesn't call EdgeToEdge()
-        setContentView(R.layout.activity_recipe_list)
+        setContentView(R.layout.activity_recipe_detail)
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)

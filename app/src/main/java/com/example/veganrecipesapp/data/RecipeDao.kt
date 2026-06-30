@@ -35,7 +35,7 @@ interface RecipeDao {
     suspend fun insertIngredient(ingredient: Ingredient): Long
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertIngredients(ingredients: List<Ingredient>): Long
+    suspend fun insertIngredients(ingredients: List<Ingredient>)
 
     @Delete
     suspend fun deleteIngredient(ingredient: Ingredient)
