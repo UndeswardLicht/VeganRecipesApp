@@ -6,8 +6,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.example.veganrecipesapp.data.RecipeRepository
-import com.example.veganrecipesapp.data.entity.Ingredient
-import com.example.veganrecipesapp.data.entity.Recipe
 import com.example.veganrecipesapp.state.RecipeDetailUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

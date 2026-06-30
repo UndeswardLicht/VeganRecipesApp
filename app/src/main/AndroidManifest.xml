@@ -31,6 +31,13 @@
             android:label="@string/screen_detail"
             android:parentActivityName=".activity.RecipeListActivity" />
 
+        <!-- Add / Edit screen -->
+        <activity
+            android:name=".activity.EditRecipeActivity"
+            android:exported="false"
+            android:label="@string/edit_recipe"
+            android:parentActivityName=".activity.RecipeDetailActivity" />
+
     </application>
 
 </manifest>
