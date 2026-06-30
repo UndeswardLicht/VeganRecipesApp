@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.Flow
 
 class RecipeRepository(private val dao: RecipeDao) {
 
-    val getAllRecipesWithIngredients: Flow<List<RecipeWithIngredients>> = dao.getAllRecipesWithIngredients()
+    val allRecipesWithIngredients: Flow<List<RecipeWithIngredients>> = dao.getAllRecipesWithIngredients()
 
     fun getRecipeWithIngredients(recipeId: Long): Flow<RecipeWithIngredients?> = dao.getRecipeWithIngredients(recipeId)
 
