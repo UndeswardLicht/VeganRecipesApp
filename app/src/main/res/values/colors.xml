@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Recipe type chip colors - orange for Food, blue for Drinks-->
+    <color name="chip_dish">#FF5722</color>
+    <color name="chip_drink">#1976D2</color>
 </resources>

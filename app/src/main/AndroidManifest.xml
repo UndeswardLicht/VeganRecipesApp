@@ -24,6 +24,13 @@
             </intent-filter>
         </activity>
 
+        <!-- Detail screen  -->
+        <activity
+            android:name=".activity.RecipeDetailActivity"
+            android:exported="false"
+            android:label="@string/screen_detail"
+            android:parentActivityName=".activity.RecipeListActivity" />
+
     </application>
 
 </manifest>

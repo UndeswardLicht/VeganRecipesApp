@@ -4,4 +4,8 @@
     <string name="no_recipes">No recipes yet. Add one!</string>
     <string name="add_recipe">+ Add recipe</string>
     <string name="list_view">List View</string>
+    <string name="screen_detail">Recipe Detail</string>
+    <string name="remove_ingredient">Remove ingredient</string>
+    <string name="ingredients_header">Ingredients</string>
+    <string name="edit_recipe">Edit recipe</string>
 </resources>
